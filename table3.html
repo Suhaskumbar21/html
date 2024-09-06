@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 align="center">Table, thead, tbody, tfoot, colspan</h1>
+    <table align="center" cellpadding="10" border="1" cellspacing="0">
+      <thead>
+        <tr bgcolor="orange">
+          <th>EMP ID</th>
+          <th>Employee Name</th>
+          <th>Department</th>
+          <th>Salary</th>
+          <th>City</th>
+          <th>Reporting</th>
+          <th>Company Name</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr bgcolor="darkgray">
+          <th>EMP ID</th>
+          <th>Employee Name</th>
+          <th>Department</th>
+          <th>Salary</th>
+          <th>City</th>
+          <th>Reporting</th>
+          <th>Company Name</th>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Sumith kumar</td>
+          <td>HR</td>
+          <td>Rs.12000</td>
+          <td>Bangalore</td>
+          <td rowspan="3" valign="middle">Ganesh</td>
+          <td rowspan="6" valign="middle">TATA</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Manoj Reddy</td>
+          <td>IT</td>
+          <td>Rs.21000</td>
+          <td rowspan="2">Kolkata</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Alex</td>
+          <td>Sales & Marketing</td>
+          <td>Rs.35000</td>
+          <!--<td> Kolkata </td>-->
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Ali Khan</td>
+          <td>BPO</td>
+          <td>Rs.26000</td>
+          <td>Delhi</td>
+          <td>Charan</td>
+        </tr>
+        <tr>
+          <td>05</td>
+          <td>Sunil Kumar</td>
+          <td>HR</td>
+          <td colspan="3">Rs.35000</td>
+        </tr>
+        <tr>
+          <td>06</td>
+          <td>Mohit Kumar</td>
+          <td>HR</td>
+          <td>Rs.45000</td>
+          <td colspan="2">Pune</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
